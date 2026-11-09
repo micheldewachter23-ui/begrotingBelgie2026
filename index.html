@@ -1,7 +1,9 @@
 <!doctype html><html lang="nl"><head><meta charset="utf-8">
 <meta name="google-site-verification" content="kCKeiou_svHWlWxh6LZtedJBrQX6zCH6rJLYBhBK1-Q">
 <link rel="canonical" href="https://denvbelgie.be/">
-<meta name="robots" content="index, follow, max-image-preview:large"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Een leesbare samenvatting van het commentaar van het Rekenhof op de federale begroting 2026 en de Europese aanbevelingen voor België."><meta property="og:type" content="website">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('consent','default',{analytics_storage:'denied',ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied'});try{if(localStorage.getItem('dvb-consent')==='yes')gtag('consent','update',{analytics_storage:'granted'});}catch(e){}gtag('js',new Date());gtag('config','G-0HYNW3MC72');</script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-0HYNW3MC72"></script><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="description" content="Een leesbare samenvatting van het commentaar van het Rekenhof op de federale begroting 2026 en de Europese aanbevelingen voor België."><meta property="og:type" content="website">
 <meta property="og:url" content="https://denvbelgie.be/">
 <meta property="og:title" content="Wat zegt het Rekenhof over de begroting 2026?">
 <meta property="og:description" content="Het verslag van het Rekenhof over de federale begroting 2026, van 101 pagina's vaktaal naar een overzicht dat iedereen kan lezen.">
@@ -544,7 +546,7 @@ html{scroll-behavior:smooth}
 
   <section class="block" id="juridisch" aria-labelledby="h-jur">
     <div class="wrap">
-      <div class="sec-head"><h2 id="h-jur">Privacy, cookies en disclaimer</h2><p>Laatst bijgewerkt op 10 oktober 2026.</p></div>
+      <div class="sec-head"><h2 id="h-jur">Privacy, cookies en disclaimer</h2><p>Laatst bijgewerkt op 9 november 2026.</p></div>
       <div class="legal">
         <details id="privacy">
           <summary>Privacyverklaring</summary>
@@ -552,7 +554,10 @@ html{scroll-behavior:smooth}
             <h4>Contact</h4>
             <p>Voor vragen over deze site of over deze verklaring: <span class="mail"><a href="mailto:denvbelgie@gmail.com">denvbelgie@gmail.com</a><button class="btn copy" type="button" data-copy="denvbelgie@gmail.com">Kopieer</button></span>. Als je me mailt, gebruik ik je e-mailadres en bericht alleen om je te antwoorden. Ik geef ze aan niemand door en verwijder ze zodra je vraag is afgehandeld.</p>
             <h4>Wat deze site verzamelt</h4>
-            <p>Niets. Deze site is een persoonlijk, niet-commercieel initiatief. Ze bevat geen formulieren, geen bezoekersstatistieken, geen advertenties, geen trackers en geen knoppen van sociale media. De lettertypes zitten in de pagina zelf, zodat je browser geen verbinding maakt met andere diensten zoals Google Fonts.</p>
+            <p>Deze site is een persoonlijk, niet-commercieel initiatief. Ze bevat geen formulieren, geen advertenties en geen knoppen van sociale media.</p>
+            <h4>Bezoekersstatistieken (Google Analytics)</h4>
+            <p>Alleen als je in de cookiemelding op &lsquo;Akkoord&rsquo; klikt, meet ik met Google Analytics 4 (Google Ireland Ltd.) hoeveel mensen de site lezen en welke onderdelen ze bekijken. Daarvoor plaatst Google de cookies <code>_ga</code> en <code>_ga_0HYNW3MC72</code> (maximaal 2 jaar) en verwerkt het onder meer je IP-adres, browser en ongeveer je locatie. Ik zie alleen geanonimiseerde totalen, nooit wie je bent. Advertentiefuncties staan uit. Rechtsgrond: je toestemming (art. 6.1.a AVG). Klik je op &lsquo;Weigeren&rsquo; of niets, dan wordt er niets gemeten. Je keuze wijzigen kan via <a href="#" id="dvb-reopen">cookie-instellingen</a>.</p>
+            <p> De lettertypes zitten in de pagina zelf, zodat je browser geen verbinding maakt met andere diensten zoals Google Fonts.</p>
             <h4>Hosting</h4>
             <p>Deze site wordt gehost via GitHub Pages, een dienst van GitHub. Om de pagina te tonen en te beveiligen verwerkt GitHub technische gegevens, zoals je IP-adres en browserinformatie. Daarvoor geldt de <a href="https://docs.github.com/nl/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener">privacyverklaring van GitHub</a>. Ik krijg die gegevens niet te zien.</p>
             <h4>Externe links</h4>
@@ -1225,4 +1230,12 @@ render();
 if(location.hash==="#aanbevelingen")showView("aanb",false);
 else if(location.hash&&location.hash.startsWith("#d-"))openDossier(location.hash.slice(1));
 </script>
+<div id="dvb-cookie" hidden role="dialog" aria-label="Cookiemelding" style="position:fixed;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;padding:14px 16px;background:#fff;color:#111;border:1px solid #ddd;border-radius:10px;box-shadow:0 6px 24px rgba(0,0,0,.12);font:15px/1.45 system-ui,sans-serif;z-index:9999">
+  Mag ik anoniem meten hoeveel mensen deze site lezen (Google Analytics)? Dat gebeurt alleen als je akkoord gaat. <a href="#h-jur" style="color:inherit">Meer info</a>
+  <div style="margin-top:10px;display:flex;gap:8px;justify-content:flex-end">
+    <button type="button" id="dvb-no" style="font:inherit;padding:6px 14px;border:1px solid #999;border-radius:6px;background:#fff;color:#111;cursor:pointer">Weigeren</button>
+    <button type="button" id="dvb-yes" style="font:inherit;padding:6px 14px;border:1px solid #111;border-radius:6px;background:#111;color:#fff;cursor:pointer">Akkoord</button>
+  </div>
+</div>
+<script>(function(){var b=document.getElementById('dvb-cookie'),v=null;try{v=localStorage.getItem('dvb-consent');}catch(e){}if(!v)b.hidden=false;function set(x){try{localStorage.setItem('dvb-consent',x);}catch(e){}b.hidden=true;}document.getElementById('dvb-yes').onclick=function(){set('yes');gtag('consent','update',{analytics_storage:'granted'});};document.getElementById('dvb-no').onclick=function(){set('no');gtag('consent','update',{analytics_storage:'denied'});};var r=document.getElementById('dvb-reopen');if(r)r.onclick=function(e){e.preventDefault();b.hidden=false;};})();</script>
 </body></html>

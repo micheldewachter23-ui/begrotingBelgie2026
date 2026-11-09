@@ -1,0 +1,19 @@
+# denvbelgie.be — Begroting 2026 nagerekend
+
+> Onafhankelijke uitlegsite die het commentaar van het Rekenhof op de Belgische federale begroting 2026 en de Europese aanbevelingen voor België vertaalt naar gewone taal, voor burgers zonder financiële achtergrond.
+
+Taal: Nederlands. Laatst bijgewerkt: 10 oktober 2026.
+
+## Inhoud
+- [Kerncijfers](https://denvbelgie.be/#h-kern): tekort, schuld en de belangrijkste cijfers van de begroting 2026, in gewone taal.
+- [De belangrijkste waarschuwingen van het Rekenhof](https://denvbelgie.be/#h-warn)
+- [Alle dossiers](https://denvbelgie.be/#h-dos): de afzonderlijke hoofdstukken van het Rekenhofverslag, samengevat.
+- [Begrippen](https://denvbelgie.be/#h-beg): uitleg van begrotingstermen.
+- [Wat Europa België aanbeveelt](https://denvbelgie.be/#aanbevelingen): de cijfers van Europa, de vijf aanbevelingen en de stand van de beloofde hervormingen.
+
+## Bronnen
+- Rekenhof: commentaar en opmerkingen bij de ontwerpen van staatsbegroting 2026
+- Europese Commissie: landspecifieke aanbevelingen voor België
+
+## Gebruik
+Samenvattingen mogen geciteerd worden met bronvermelding (denvbelgie.be). Raadpleeg voor officiële cijfers altijd het oorspronkelijke verslag.
